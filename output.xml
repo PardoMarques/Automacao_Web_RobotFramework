@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-01-17T15:45:38.131041" rpa="false" schemaversion="5">
+<suite id="s1" name="Modelo" source="C:\Projetos\Python\git_Automacao_Web_RobotFramework\modelo.robot">
+<test id="s1-t1" name="Cenário 1: Acessando o site do Robot" line="11">
+<kw name="Abrir Site">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-17T15:45:38.275041" level="INFO">Opening browser 'chrome' to base url 'https://robotframework.org/'.</msg>
+<arg>https://robotframework.org/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-17T15:45:38.275041" elapsed="3.210829"/>
+</kw>
+<status status="PASS" start="2024-01-17T15:45:38.274043" elapsed="3.211827"/>
+</kw>
+<status status="PASS" start="2024-01-17T15:45:38.273042" elapsed="3.213828"/>
+</test>
+<status status="PASS" start="2024-01-17T15:45:38.132041" elapsed="3.355828"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Modelo">Modelo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
